@@ -1,4 +1,4 @@
-[![Banner](https://i.imgur.com/AWqiqmn.png)](https://discord.gg/jAnEnyGBe)
+[![Banner](https://i.imgur.com/HvwX7ei.png)](https://discord.gg/jAnEnyGBe)
 > Enhance your FiveM server with our advanced death screen, featuring a modern design and a range of functionalities.
 
 ## ` ⭐ `丨Features
