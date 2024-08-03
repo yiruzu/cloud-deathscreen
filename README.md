@@ -13,3 +13,6 @@
 
 ## ` 🔗 `丨Discord / Support
 ・https://discord.gg/jAnEnyGBe
+
+## ` 📄 `丨License
+> [CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
