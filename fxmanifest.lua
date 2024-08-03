@@ -6,6 +6,7 @@ use_experimental_fxv2_oal "yes"
 
 author "yiruzu"
 description "Cloud Service - Deathscreen"
+version "1.0.0"
 
 discord "https://discord.gg/jAnEnyGBef"
 repository "https://github.com/yiruzu/cloud-deathscreen"
