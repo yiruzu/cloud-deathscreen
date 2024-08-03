@@ -1,5 +1,5 @@
 [![Banner](https://i.imgur.com/HvwX7ei.png)](https://discord.gg/jAnEnyGBef)
-> Enhance your FiveM server with our advanced death screen, featuring a modern design and a range of functionalities.
+> Enhance your FiveM server with our advanced death screen, featuring a modern design and a wide range of functionalities.
 
 ## ` ⭐ `丨Features
 ・Sleek, modern design for an upgraded user experience<br>・Fully customizable to match your server’s requirements<br>・Optional voice chat deafening system<br>・Optional realistic death animation
