@@ -1,4 +1,4 @@
-[![Banner](https://i.imgur.com/HvwX7ei.png)](https://discord.gg/jAnEnyGBe)
+[![Banner](https://i.imgur.com/HvwX7ei.png)](https://discord.gg/jAnEnyGBef)
 > Enhance your FiveM server with our advanced death screen, featuring a modern design and a range of functionalities.
 
 ## ` ⭐ `丨Features
@@ -15,7 +15,7 @@
 ・[ox_lib](https://github.com/overextended/ox_lib/releases/)
 
 ## ` 🔗 `丨Discord / Support
-・https://discord.gg/jAnEnyGBe
+・https://discord.gg/jAnEnyGBef
 
 ## ` 📄 `丨License
 ・[CC BY-NC](https://creativecommons.org/licenses/by-nc/4.0/)
