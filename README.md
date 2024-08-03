@@ -10,3 +10,6 @@
 
 ## ` ⚠️ `丨Dependencies
 ・[ox_lib](https://github.com/overextended/ox_lib/releases/)
+
+## ` 🔗 `丨Discord / Support
+・https://discord.gg/jAnEnyGBe
