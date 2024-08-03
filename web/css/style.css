@@ -1,0 +1,165 @@
+@import url("https://fonts.cdnfonts.com/css/akrobat");
+@import url("https://fonts.cdnfonts.com/css/eastman-trial");
+
+:root {
+  --background-color: rgba(10, 10, 10, 0.87);
+
+  --header-color: rgb(65, 133, 235);
+  --header-glow-color: rgba(65, 133, 235, 0.35);
+
+  --white-color: rgb(255, 255, 255);
+  --white-color-rgba: rgba(255, 255, 255, 0.15);
+  --white-glow-color-hover: rgba(255, 255, 255, 0.35);
+
+  --white-opacity: rgba(255, 255, 255, 0.6);
+  --black-color: rgb(0, 0, 0);
+
+  --red-color: rgb(255, 0, 0);
+  --red-color-rgba-hover: rgba(255, 0, 0, 0.35);
+  --disabled-opacity: 0.7;
+
+  --font-akrobat-black: "Akrobat Black", sans-serif;
+  --font-akrobat-bold: "Akrobat Bold", sans-serif;
+  --font-eastman-trial: "Eastman Trial", sans-serif;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--background-color);
+}
+
+.skull-image {
+  position: absolute;
+  width: 85%;
+  height: 100%;
+  top: 0;
+  left: -33%;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  top: 25.25%;
+  left: 12%;
+  font-family: var(--font-akrobat-black);
+  color: var(--white-color);
+  font-size: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 span {
+  font-family: var(--font-eastman-trial);
+  font-weight: 600;
+  color: var(--header-color);
+  text-shadow: 0px 4px 23px var(--header-glow-color);
+}
+
+h2 {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 10%;
+  color: var(--white-opacity);
+  font-family: var(--font-akrobat-bold);
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 43%;
+  top: 44.5%;
+  left: 28.5%;
+  color: var(--white-color);
+  font-family: var(--font-akrobat-black);
+  font-size: 8.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  scale: 0.8;
+}
+
+.timer-part {
+  margin: 0 auto;
+  width: 15vh;
+  padding: 4vh 0;
+  background: radial-gradient(58.45% 50% at 50% 50%, var(--white-color-rgba) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid var(--white-color-rgba);
+  border-radius: 10px;
+}
+
+.timer-part:first-child {
+  margin-left: 2.5vh;
+}
+
+.timer-part:last-child {
+  margin-right: 2.5vh;
+}
+
+.timer-colon {
+  padding: 4vh 0 6vh;
+  width: 5vh;
+}
+
+button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 48%;
+  left: 68.5%;
+  width: 36.5vh;
+  padding: 2.2vh 0;
+  font-size: 2.15rem;
+  font-family: var(--font-akrobat-black);
+  letter-spacing: 0.1rem;
+  color: var(--white-color);
+  background: radial-gradient(58.45% 50% at 50% 50%, var(--white-color-rgba) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid var(--white-color-rgba);
+  border-radius: 6px;
+  margin-bottom: 1.5vh;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.4s ease, background 0.4s ease, color 0.4s ease, border 0.4s ease, box-shadow 0.4s ease;
+}
+
+button i {
+  margin-right: 1.3vh;
+}
+
+button:hover {
+  transform: scale(1.025);
+  color: var(--black-color);
+  background: var(--white-color);
+  border: 1px solid var(--white-color);
+  box-shadow: 0px 4px 23px var(--white-glow-color-hover);
+}
+
+.face-death:hover {
+  color: var(--white-color);
+  background: var(--red-color);
+  border: 1px solid var(--red-color);
+  box-shadow: 0px 4px 23px var(--red-color-rgba-hover);
+}
+
+.call-emergency.disabled {
+  pointer-events: none;
+  color: var(--white-opacity);
+  background: var(--white-opacity);
+  border: 1px solid var(--white-color-rgba);
+  opacity: var(--disabled-opacity);
+}
