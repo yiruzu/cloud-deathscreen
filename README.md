@@ -8,8 +8,7 @@
 ・https://www.youtube.com/watch?v=nQqlXFAu6so
 
 ## ` 🌐 `丨Frameworks
-・ESX
-・QBCore
+・ESX<br>・QBCore
 
 ## ` ⚠️ `丨Dependencies
 ・[ox_lib](https://github.com/overextended/ox_lib/releases/)
