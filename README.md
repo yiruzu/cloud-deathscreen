@@ -7,7 +7,7 @@
 ## ` 📸 `丨Preview
 ・https://www.youtube.com/watch?v=nQqlXFAu6so
 
-## ` 🌐 `丨Framework
+## ` 🌐 `丨Frameworks
 ・ESX
 ・QBCore
 
