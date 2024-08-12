@@ -58,7 +58,10 @@ local onPlayerDeath = function()
 	CreateThread(function()
 		SetDeathStatus(true)
 		ShowUI()
-		SendNUIMessage({ action = "setTimer", timer = Cloud.Timer })
+		SendNUIMessage({
+			action = "setTimers",
+			timers = { mainTimer = Cloud.MainTimer, faceDeathTimer = Cloud.FaceDeathTimer },
+		})
 	end)
 	HandleVoiceState(false)
 
