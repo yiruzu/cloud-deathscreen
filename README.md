@@ -5,7 +5,7 @@
 ・Sleek, modern design for an upgraded user experience<br>・Fully customizable to match your server’s requirements<br>・Optional voice chat deafening system<br>・Optional realistic death animation
 
 ## ` 📸 `丨Preview
-・https://youtu.be/8b2gtpfy_6Y
+・https://youtu.be/8bjrRzsAj08
 
 ## ` 📄 `丨Documentation
 ・https://cloud-service-1.gitbook.io/docs/free-resources/cloud-deathscreen
