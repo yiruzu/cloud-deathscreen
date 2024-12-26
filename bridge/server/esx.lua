@@ -5,12 +5,8 @@ if Config.Framework ~= "esx" then return end
 
 local ESX = exports["es_extended"]:getSharedObject()
 
-function GetPlayerId(source)
-	return ESX.GetPlayerFromId(source)
-end
-
 local function PayFine(source)
-	local xPlayer = GetPlayerId(source)
+	local xPlayer = ESX.GetPlayerFromId(source)
 	if not xPlayer then return false end
 
 	local amount = Config.PriceForDeath

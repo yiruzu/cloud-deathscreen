@@ -2,6 +2,10 @@ local Config = require("shared.sh_config")
 
 if Config.Framework ~= "qbcore" then return end
 
+function CallEmergency()
+	TriggerServerEvent("hospital:server:ambulanceAlert", "Unconscious Person")
+end
+
 function RevivePed()
 	TriggerServerEvent("hospital:server:RespawnAtHospital")
 end
