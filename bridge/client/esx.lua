@@ -2,6 +2,10 @@ local Config = require("shared.sh_config")
 
 if Config.Framework ~= "esx" then return end
 
+function CallEmergency()
+	TriggerServerEvent("esx_ambulancejob:onPlayerDistress")
+end
+
 function RevivePed()
 	TriggerEvent("esx_ambulancejob:RespawnAtHospital") --! Don't forget to check the documentation to ensure this works properly.
 end
